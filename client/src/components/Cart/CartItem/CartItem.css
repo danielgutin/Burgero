@@ -1,0 +1,89 @@
+.CartItem {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: 16vh;
+    grid-auto-rows: 15vh;
+    background-color: #fff;
+    margin-bottom: 2vh;
+    padding-top: .5rem;
+}
+
+.CartItem_desc,
+.CartItem_price,
+.CartItem_actions,
+.CartItem_total {
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.CartItem_price,
+.CartItem_total {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+
+.CartItem_actions {
+    text-align: center;
+}
+
+
+.CartItem_actions-buttons {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.CartItem_actions-buttons button {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease;
+    outline: none;
+}
+
+.CartItem_actions-buttons-remove {
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-top: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.CartItem_actions-buttons-plus {
+    background-color: rgb(30, 190, 92);
+    color: #fff;
+}
+
+
+.CartItem_actions-buttons-plus:hover {
+    background-color: rgb(20, 161, 74);
+}
+
+.CartItem_actions-buttons-minus,
+.CartItem_actions-buttons-remove {
+    background-color: rgb(223, 76, 51);
+    color: #fff;
+}
+
+.CartItem_actions-buttons-minus:hover,
+.CartItem_actions-buttons-remove:hover {
+    background-color: rgb(177, 48, 26);
+}
+
+
+@media screen and (max-width:1300px) {
+    .CartItem_actions-buttons button {
+        font-size: 1.5rem;
+    }
+
+    .CartItem_actions-buttons-remove {
+        font-size: 1.5rem;
+    }
+}

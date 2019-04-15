@@ -1,0 +1,14 @@
+.System {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+
+/* Media Landscape */
+@media screen and (max-width: 1280px) {
+    .System {
+        grid-template-columns: 4fr 2.3fr;
+    } 
+}

@@ -1,0 +1,63 @@
+.LoginForm {
+    height: auto;
+    width: 20vw;
+    text-align: center;
+}
+
+.LoginForm_para {
+    font-size: .6rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+.LoginForm_input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: var(--bg-mg);
+    padding: var(--sm-mg);
+    font-size: 1.2rem;
+    outline: none;
+    transition: all .3s ease;
+}
+
+
+
+.LoginForm .button:hover,
+.LoginForm .LoginForm_input:focus {
+    transform: scale(1.1);
+    box-shadow: 1px 10px 30px rgba(0,0,0,.3);
+}
+
+.LoginForm_button-login {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+
+
+
+/* Phone Screen */
+@media screen and (max-width: 670px) {
+    .LoginForm {
+        height: auto;
+        width: 75vw;
+        text-align: center;
+    }
+
+    .LoginForm_button {
+        display: block;
+        margin: var(--md-mg) auto;
+        font-size: 1.2rem;
+    }
+
+    .LoginForm_button:hover,
+    .LoginForm_input:focus {
+        transform: scale(1);
+        box-shadow: none;
+    }
+    
+}

@@ -1,0 +1,22 @@
+.BurgerCart .Hamburger_container-top {
+    background-image: url(../../../assets/hamburger-top.png);
+    background-size: cover;
+    height: 3vh;
+    width: 50%;
+    margin: .4rem auto;
+
+}
+
+.BurgerCart .Hamburger_container-bottom {
+    background-color: rgb(233, 138, 43);
+    height: 1.5vh;
+    width: 45%;
+    border-radius: 7px;
+    margin: .4rem auto;
+}
+
+.BurgerCart .IngItem {
+    width: 40%;
+    height: 1vh !important;
+    margin: .4rem auto;
+}

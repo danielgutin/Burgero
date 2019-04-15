@@ -1,0 +1,16 @@
+.About {
+    height: 100vh;
+    background-image: url(../../assets/about-page.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width:1300px) {
+    .About {
+        height: 100vh;
+        background-image: url(../../assets/about-page-landscape.png);
+        background-size: cover;
+        background-position: center;
+    }
+}

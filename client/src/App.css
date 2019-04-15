@@ -1,0 +1,37 @@
+/* CSS Reusable Variables */
+:root {
+    --full-screen : 100vh;
+    --sm-mg : 5px;
+    --md-mg : 10px;
+    --bg-mg : 20px;
+    --huge-mg : 30px;
+    --main-color: #F9AF42;
+    --second-color : #BB1F23;
+}
+
+
+/* App */
+.App {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+  display: block;
+  margin: var(--huge-mg) auto;
+  font-size: 1.3rem;
+  padding : var(--sm-mg) var(--bg-mg);
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.3);
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+
+.button:hover {
+  box-shadow: 1px 5px 20px rgba(0,0,0,.4);
+  transform: scale(1.1);
+}

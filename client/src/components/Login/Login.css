@@ -1,0 +1,51 @@
+.Login {
+    height: var(--full-screen);
+    background-image: url(../../assets/login-page.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Login-form {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+}
+
+
+
+
+/* LandScape Screen */
+@media screen and (max-width: 1280px) {
+    .Login {
+        height: var(--full-screen);
+        background-image: url(../../assets/login-page-landscape.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Login-form {
+        position: absolute;
+        left: 64%;
+    }
+    
+}
+
+
+
+/* Phone Screen */
+@media screen and (max-width: 670px) {
+    .Login {
+        height: var(--full-screen);
+        background-image: url(../../assets/login-page-phone.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Login-form {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
+    
+}

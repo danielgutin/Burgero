@@ -1,0 +1,46 @@
+.Menu_content {
+    text-align: center;
+}
+
+.Menu_content img {
+    height: 80px;
+    width: 100px;
+}
+
+.Menu_content .button {
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: var(--huge-mg) auto;
+    background-color: var(--second-color);
+    width: 90%;
+    transition: all .3s ease;
+}
+
+.Menu_content .button.guest {
+    cursor: not-allowed;
+}
+
+
+.Menu_content .button:hover {
+    transform: scale(1.1);
+}
+
+.generate_pdf {
+    position: relative;
+    overflow: hidden;
+}
+
+/* .generate_pdf::after {
+    content: 'Soon';
+    position: absolute;
+    top: -13%;
+    right: -11%;
+    width: 3rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    transform: rotate(45deg);
+    background-color: #fafafa;
+    color: var(--second-color);
+    font-size: 1rem;
+} */

@@ -1,0 +1,34 @@
+.NotFoundPage {
+    background-image: url(../../assets/bgc-notfound.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+/* Landscape Screen */
+@media screen and (max-width: 1280px) {
+    .NotFoundPage {
+        background-image: url(../../assets/Burgero-error-landscape.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+}
+
+
+
+/* Phone Screen */
+@media screen and (max-width: 670px) {
+    .NotFoundPage {
+        background-image: url(../../assets/burgero-notfound-mobile.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+}
+
+

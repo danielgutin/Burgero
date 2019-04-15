@@ -1,0 +1,64 @@
+.Controls {
+    background-image: url(../../../assets/controller.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Controls_products {
+    margin-top: 31vh;
+}
+
+.Controls_product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .2vw;
+    height: 8vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.Controls_product-plus,
+.Controls_product-minus {
+    cursor: pointer;
+    border-radius: 50px;
+    width: 80%;
+}
+
+
+.Controls_product-amount {
+    align-self: center;
+    font-size: 2rem;
+    color: var(--main-color);
+    padding-right: 2vw;
+}
+
+
+.Controls_product-product {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 50%;
+    padding-top: 1rem;
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.Controls_product-product:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.Controls_total {
+    position: absolute;
+    width: 25%;
+    bottom: 3vh;
+    height: 10vh;
+    padding: var( --huge-mg );
+}
+
+.Controls_total .Controls_total-price {
+    font-size: 2rem;
+    color: #fff;
+}
+
